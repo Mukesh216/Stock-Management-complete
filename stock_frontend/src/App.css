@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Sono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Arvo:wght@700&family=Crimson+Text:wght@600&family=Ysabeau+Infant:wght@200&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* font-family: 'Poppins', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Ysabeau Infant', serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Reggae One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Train One', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Autour One', cursive;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive; 
+    font-family: 'Headland One', serif; */
+
+/* 
+.circle-progress {
+  background-color: #f0f0f0; 
+  border-radius: 50%; 
+  position: relative;
+  background: conic-gradient(
+    #3498db  66%,
+    red 1%
+  );
+ 
+}
+.progress-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px; 
+  color: white;
+} */
+
+
+
+.top-buyers-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.top-buyers-container ul {
+  animation: scrollLeft 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.top-selling-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.top-selling-container ul {
+  animation: scrollLeft 15s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
